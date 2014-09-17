@@ -1,0 +1,30 @@
+Tangent Snowball Front End Developer Test - Notes
+-------------------------------------------------
+
+I have completed the development of the sample PSD which was provided. The final page can be viewed here:
+
+Also attaching all the source files along with this mail. Kindly find some notes below with respect to the work.
+
+* The design matches the PSD provided and should work fine in IE 8 onwards and Firefox and Chrome. I have tried to use a grid system using percentages for making the page responsive.
+
+* The page is fully responsive by implementing breakpoints for desktops (800px and above), tablets (below 800px) and phones (480px and below). I have took some liberty to decide the layout of content in the tablet and mobile views.
+
+* I have tried to make use of CSS3 properties wherever possible such as for box shadow, text shadow, rounded corners etc, keeping in mind for support for older browsers
+
+* Such properties are mostly implemented for IE using IE-only filters. I also have used vendor prefixes wherever possible so that older versions of Chrome and Firefox will be able to handle
+
+* For HTML5 tag support in old IE versions, I have used HTML5shiv script hosted at Google code.
+
+* As per the font used in PSD, font Oswald was implemented by using Google Fonts.
+
+* For the shopping cart icon and the magnifying glass icon, I tried to find the font Snowcone, but I realized Tangent Snowball has released it in Git Hub as a web font itself which I have used in the project.
+
+* I have enhanced couple of elements in the page using Javascript, such as for left sidebar menu, lightbox type of viewer for the main image and a simple text hint toggle for the search field in the header. It's fully written in jQuery and not plugins were used.
+
+* Developed using Sublime Text 3 in Ubuntu. Tested in IE using Windows running in Virtual Box.
+
+
+
+
+
+
